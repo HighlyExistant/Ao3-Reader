@@ -1,0 +1,1 @@
+This is a simple chrome extension who's goal is simply to read Ao3 Fan fictions using TTS.

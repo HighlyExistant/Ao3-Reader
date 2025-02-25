@@ -1,0 +1,17 @@
+{
+    "name": "Ao3 Reader",
+    "description": "Reads Ao3 Fan fictions using TTS",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "images/ao3.png"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+        {
+            "matches": ["https://archiveofourown.org/works/*"],
+            "js": ["content.js"]
+        }
+    ]
+}

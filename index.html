@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="load.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="listing">
+        <span>
+            <button id="speach">Speach</button>
+        </span>
+        <span>
+            <button id="pause">Pause</button>
+        </span>
+        <span>
+            <button id="resume">Resume</button>
+        </span>
+        <span>
+            <button id="cancel">Cancel</button>
+        </span>
+    </div>
+    <div>
+        <span>Rate</span>
+        <input type="range" min="0.0" max="30.0" id="rate" value="10.0"/>
+    </div>
+    <div class="listing" id="voices">
+        <noscript>Activate javascript to continue</noscript>
+    </div>
+    <script src="popup.js">
+    </script>
+</body>
+</html>
