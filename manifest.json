@@ -1,7 +1,7 @@
 {
     "name": "Ao3 Reader",
-    "description": "Reads Ao3 Fan fictions using TTS",
-    "version": "1.0",
+    "description": "Reads Ao3 Fan fictions using TTS. This project is in no way affiliated by archiveofourown.org",
+    "version": "1.0.1",
     "manifest_version": 3,
     "action": {
       "default_popup": "index.html",
@@ -11,7 +11,7 @@
     "content_scripts": [
         {
             "matches": ["https://archiveofourown.org/works/*"],
-            "js": ["content.js"]
+            "js": ["content/content.js"]
         }
     ]
 }

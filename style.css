@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a;
+    color: #9a9a9a;
+}
+button {
+    border: 0;
+    border-radius: 6px;
+    margin: 1px;
+    padding: 10px;
+    background-color: #070707;
+    color: #9a9a9a;
+    width: 100%;
+}
+button:hover {
+    background-color: #383838;
+}
+
+.ranged_input {
+    border: 0;
+    border-radius: 6px;
+    margin: 1px;
+    padding: 10px;
+    background-color: #070707;
+    color: #9a9a9a;
+    display: flex;
+    flex-direction: column;
+}
+.ranged_input span {
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ranged_input input {
+    padding: 0%;
+    width: 100%;
+}
+html {
+    width: 250px;
+}

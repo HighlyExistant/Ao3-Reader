@@ -1,1 +1,1 @@
-This is a simple chrome extension who's goal is simply to read Ao3 Fan fictions using TTS.
+This is a simple chrome extension who's goal is simply to read Ao3 Fan fictions using TTS. This project is in no way affiliated by archiveofourown.org
